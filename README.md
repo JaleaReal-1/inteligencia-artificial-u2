@@ -60,7 +60,6 @@ El estudio integra dos fuentes oficiales del Estado Peruano para el año 2025:
 │   ├── models/                          # Modelos entrenados serializados (.joblib)
 │   └── *.csv / *.json                   # Tablas de métricas por fold y metadatos
 ├── requirements.txt                     # Dependencias exactas del proyecto
-├── PLAN_DE_TRABAJO.md                   # Guía maestra y especificación de diseño
 └── README.md                            # Documentación principal del repositorio
 ```
 
