@@ -1,0 +1,105 @@
+{
+  "modelo_explicado": "CatBoostClassifier",
+  "metodo": "shap.TreeExplainer",
+  "escala_shap": "log-odds (salida cruda del clasificador)",
+  "n_test_explicado": 1924,
+  "n_variables_transformadas": 46,
+  "top_15": [
+    {
+      "ranking": 1,
+      "variable": "dominio_25_6.0",
+      "shap_abs_medio": 0.19619287789055667
+    },
+    {
+      "ranking": 2,
+      "variable": "escale_total_locales",
+      "shap_abs_medio": 0.17846468496737222
+    },
+    {
+      "ranking": 3,
+      "variable": "p1143_25",
+      "shap_abs_medio": 0.17168327116940146
+    },
+    {
+      "ranking": 4,
+      "variable": "escale_ratio_alumno_docente",
+      "shap_abs_medio": 0.16528962806081107
+    },
+    {
+      "ranking": 5,
+      "variable": "log_gasto_pc",
+      "shap_abs_medio": 0.14830762824313998
+    },
+    {
+      "ranking": 6,
+      "variable": "log_ingreso_pc",
+      "shap_abs_medio": 0.12592218159054977
+    },
+    {
+      "ranking": 7,
+      "variable": "dominio_25_7.0",
+      "shap_abs_medio": 0.12372511570361441
+    },
+    {
+      "ranking": 8,
+      "variable": "escale_pct_colegios_publicos",
+      "shap_abs_medio": 0.12219438006094496
+    },
+    {
+      "ranking": 9,
+      "variable": "escale_pct_locales_rurales",
+      "shap_abs_medio": 0.09947697373816929
+    },
+    {
+      "ranking": 10,
+      "variable": "p207_25_2.0",
+      "shap_abs_medio": 0.09834944007547793
+    },
+    {
+      "ranking": 11,
+      "variable": "escale_pct_colegios_rurales",
+      "shap_abs_medio": 0.09077326531804218
+    },
+    {
+      "ranking": 12,
+      "variable": "p314a_25",
+      "shap_abs_medio": 0.08083453578102623
+    },
+    {
+      "ranking": 13,
+      "variable": "dominio_25_5.0",
+      "shap_abs_medio": 0.07925340281898667
+    },
+    {
+      "ranking": 14,
+      "variable": "equipamiento_tic",
+      "shap_abs_medio": 0.06010675509179981
+    },
+    {
+      "ranking": 15,
+      "variable": "estrato_25_5.0",
+      "shap_abs_medio": 0.059679151129906495
+    }
+  ],
+  "casos_extremos": [
+    {
+      "caso": "alto_riesgo",
+      "posicion_test": 1795,
+      "indice_original": 22242,
+      "conglome_25": "020232",
+      "rezago_real": 1,
+      "probabilidad_modelo": 0.8276964510090751,
+      "prediccion_umbral_05": 1
+    },
+    {
+      "caso": "bajo_riesgo",
+      "posicion_test": 912,
+      "indice_original": 10199,
+      "conglome_25": "016249",
+      "rezago_real": 0,
+      "probabilidad_modelo": 0.006262550423155536,
+      "prediccion_umbral_05": 0
+    }
+  ],
+  "nota_interpretacion": "SHAP describe asociaciones del modelo, no efectos causales. Los ejes de las variables numéricas se muestran en su escala original."
+}

@@ -1,0 +1,51 @@
+﻿nombre_columna,descripcion,fuente,tipo_dato,rango_valores
+conglome_25,Código de conglomerado del INEI (UPM) para el corte 2025. Unidad de muestreo y agrupación anti-leakage.,ENAHO 2025,string,
+vivienda_25,Número de selección de la vivienda en el conglomerado (corte 2025).,ENAHO 2025,string,
+hogar_25,Número de hogar dentro de la vivienda particular (corte 2025).,ENAHO 2025,string,
+codperso_25,Código secuencial de la persona dentro del hogar (corte 2025).,ENAHO 2025,string,
+ubigeo_25,Código de ubicación geográfica distrital INEI (6 dígitos con ceros a la izquierda).,ENAHO 2025,string,
+p300a_25,"Lengua materna aprendida en su niñez (1=Castellano, 2=Quechua, 3=Aimara, etc.).",ENAHO 2025,float64,"min=1.0, max=15.0"
+p306_25,"Condición de matrícula escolar en el año en curso (1=Sí, 2=No).",ENAHO 2025,float64,"min=1.0, max=2.0"
+p307_25,"Asistencia regular actual al centro o programa educativo (1=Sí, 2=No).",ENAHO 2025,float64,"min=1.0, max=2.0"
+p308a_25,"Nivel educativo que cursa en el año actual (1=Inicial, 2=Primaria, 3=Secundaria, etc.).",ENAHO 2025,float64,"min=1.0, max=7.0"
+p308b_25,"Grado o año de estudios actual que cursa (1-6 Primaria, 1-5 Secundaria).",ENAHO 2025,float64,"min=0.0, max=5.0"
+p314a_25,"Uso personal del servicio de internet en el mes anterior (1=Sí, 2=No).",ENAHO 2025,float64,"min=1.0, max=2.0"
+p314b_1_25,"Uso de internet en el propio hogar durante el mes anterior (1=Sí, 0=No).",ENAHO 2025,object,
+p316_1_25,Frecuencia o actividad TIC 1 realizada en el mes anterior.,ENAHO 2025,object,
+p316_2_25,Frecuencia o actividad TIC 2 realizada en el mes anterior.,ENAHO 2025,object,
+p316_3_25,Frecuencia o actividad TIC 3 realizada en el mes anterior.,ENAHO 2025,object,
+factor07_25,Factor de expansión muestral anual individual calibrado por proyecciones demográficas.,ENAHO 2025,float64,"min=1.66457009315491, max=1845.74096679688"
+p203_25,"Relación de parentesco con el jefe o jefa del hogar (1=Jefe, 3=Hijo/a, etc.).",ENAHO 2025,object,
+p207_25,"Sexo del estudiante (1=Hombre, 2=Mujer).",ENAHO 2025,object,
+p208a_25,Edad del estudiante en años cumplidos (población objetivo 6 a 17 años).,ENAHO 2025,float64,"min=6.0, max=17.0"
+ubigeo_25_hogar,Código UBIGEO distrital a nivel de hogar (validación de consistencia).,ENAHO 2025,string,
+dominio_25,"Dominio geográfico regional (1=Costa Norte, 2=Costa Centro, 3=Costa Sur, 4=Sierra Norte, 5=Sierra Centro, 6=Sierra Sur, 7=Selva, 8=Lima Metropolitana).",ENAHO 2025,object,
+estrato_25,"Estrato socio-demográfico y geográfico (1 a 8, donde 1-5 es Urbano y 6-8 es Rural).",ENAHO 2025,int64,"min=1, max=8"
+inghog2d_25,Ingreso total mensual neto per cápita del hogar (en Soles corrientes).,ENAHO 2025,float64,"min=221.402069091797, max=629966.3125"
+gashog2d_25,Gasto total mensual neto per cápita del hogar (en Soles corrientes).,ENAHO 2025,float64,"min=2288.05810546875, max=279255.09375"
+pobreza_25,"Condición de pobreza monetaria del hogar (1=Pobre extremo, 2=Pobre no extremo, 3=No pobre).",ENAHO 2025,int64,"min=1, max=3"
+factor07_25_hogar,Factor de expansión muestral a nivel de hogar.,ENAHO 2025,object,
+p1121_25,"Disponibilidad de alumbrado eléctrico por red pública en la vivienda (1=Sí, 0=No).",ENAHO 2025,object,
+p1141_25,"Tenencia de computadora de escritorio en el hogar (1=Sí, 0=No).",ENAHO 2025,int64,"min=0, max=1"
+p1142_25,"Tenencia de computadora portátil / laptop en el hogar (1=Sí, 0=No).",ENAHO 2025,int64,"min=0, max=1"
+p1143_25,"Tenencia de tableta en el hogar (1=Sí, 0=No).",ENAHO 2025,object,
+p1144_25,"Conexión a internet fija o móvil en el hogar (1=Sí, 0=No).",ENAHO 2025,int64,"min=0, max=1"
+escale_total_alumnos,Total distrital de alumnos matriculados en instituciones educativas (ESCALE).,ESCALE,int64,"min=18, max=284166"
+escale_total_docentes,Total distrital de docentes en instituciones educativas (ESCALE).,ESCALE,int64,"min=4, max=14320"
+escale_total_secciones,Total distrital de secciones operativas en instituciones educativas (ESCALE).,ESCALE,int64,"min=9, max=12880"
+escale_pct_colegios_publicos,Proporción distrital de colegios de gestión pública (0.0 a 1.0).,ESCALE,Float64,"min=0.0, max=1.0"
+escale_pct_colegios_rurales,Proporción distrital de colegios ubicados en área rural censal (0.0 a 1.0).,ESCALE,Float64,"min=0.0, max=1.0"
+escale_lat_centroide,Latitud geográfica media ponderada de las IEs en el distrito.,ESCALE,float64,"min=-18.194816065217392, max=-0.7464459285714286"
+escale_lon_centroide,Longitud geográfica media ponderada de las IEs en el distrito.,ESCALE,float64,"min=-81.29163246511628, max=-68.99511269135803"
+escale_total_ies,Cantidad total de instituciones educativas en el distrito.,ESCALE,int64,"min=2, max=1693"
+escale_ratio_alumno_docente,Ratio distrital alumnos por docente (indicador de saturación pedagógica).,Derivada,float64,"min=2.8275862068965516, max=26.166666666666668"
+escale_total_locales,Cantidad física distrital de locales escolares (Padrón Padlocal).,Derivada,float64,"min=1.0, max=799.0"
+escale_pct_locales_rurales,Proporción distrital de locales escolares en área rural (0.0 a 1.0).,ESCALE,Float64,"min=0.0, max=1.0"
+edad_normativa,Edad teórica esperada según MINEDU RM 064-2022 (Primaria: grado+5; Secundaria: grado+11).,Derivada,float64,"min=12.0, max=16.0"
+poblacion_evaluable_rezago,Indicador booleano (1/0) de estudiante evaluable (matriculado/asistente con grado válido).,ENAHO 2025,Int8,"min=0, max=1"
+rezago_escolar,Variable Target Supervisada: 1 si edad > (edad_normativa + 1 año de tolerancia); 0 caso contrario.,Derivada,Int8,"min=0, max=1"
+lengua_originaria,"Indicador derivado (1=Lengua nativa Quechua/Aimara/Amazónica, 0=Castellano/Extranjera).",Derivada,Int8,"min=0, max=1"
+exclusion_digital,"Variable Target Alternativa: Asiste a la escuela pero no tiene internet en casa, ni uso en mes anterior, ni PC/laptop.",Derivada,Int8,"min=0, max=1"
+equipamiento_tic,"Conteo de dispositivos TIC disponibles en el hogar (computadora, laptop, tablet).",Derivada,Int8,"min=0, max=2"
+log_gasto_pc,Transformación logarítmica del gasto mensual per cápita: log(1 + gashog2d_25).,ENAHO 2025,float64,"min=7.735895704282522, max=12.53988453853758"
+log_ingreso_pc,Transformación logarítmica del ingreso mensual per cápita: log(1 + inghog2d_25).,ENAHO 2025,float64,"min=5.40448686580346, max=13.353423212101012"

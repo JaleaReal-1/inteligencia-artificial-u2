@@ -1,0 +1,41 @@
+{
+  "modelo_campeon": "CatBoost",
+  "mejor_modelo_arbol_para_xai": "CatBoost",
+  "criterio_seleccion": "PR-AUC media en GroupKFold de 5 folds sobre entrenamiento",
+  "n_total_evaluable": 9382,
+  "n_train": 7458,
+  "n_test": 1924,
+  "positivos_total": 520,
+  "prevalencia": 0.05542528245576636,
+  "conglomerados_train": 3243,
+  "conglomerados_test": 811,
+  "conglomerados_compartidos": 0,
+  "features": [
+    "log_gasto_pc",
+    "log_ingreso_pc",
+    "lengua_originaria",
+    "equipamiento_tic",
+    "p1121_25",
+    "p1141_25",
+    "p1142_25",
+    "p1143_25",
+    "p1144_25",
+    "p314a_25",
+    "escale_ratio_alumno_docente",
+    "escale_pct_colegios_publicos",
+    "escale_pct_colegios_rurales",
+    "escale_total_locales",
+    "escale_pct_locales_rurales",
+    "p207_25",
+    "p300a_25",
+    "dominio_25",
+    "estrato_25"
+  ],
+  "variables_excluidas_anti_leakage": [
+    "p208a_25",
+    "p308a_25",
+    "p308b_25",
+    "edad_normativa",
+    "poblacion_evaluable_rezago"
+  ]
+}

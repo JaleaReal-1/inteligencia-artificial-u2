@@ -1,0 +1,8 @@
+{
+  "k_optimo": 2,
+  "n_observaciones": 23668,
+  "n_features_clustering": 10,
+  "varianza_pca_3": 0.8121350443816887,
+  "modelo_comparado": "KMeans vs GaussianMixture",
+  "umap": "ejecutado sobre muestra reproducible de hasta 500 observaciones"
+}

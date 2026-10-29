@@ -1,0 +1,48 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Numba & Machine Learning Caches
+.numba_cache/
+catboost_info/
+lightning_logs/
+
+# Archivos temporales y de sistema
+tmp/
+temp/
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de datos crudos pesados (>100MB superan el límite de GitHub)
+data/raw/*.csv
+data/raw/*.zip
+*.zip
+*.tar.gz
+*.rar
+
+# Mantener la estructura de data/raw en git
+!data/raw/.gitkeep
+!data/raw/README_DATOS_CRUDOS.md
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
